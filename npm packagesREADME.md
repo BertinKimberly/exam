@@ -1,2 +1,0 @@
-# exam
-javascript cat exam
