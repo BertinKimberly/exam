@@ -1,6 +1,6 @@
 {
   "name": "bertin-calculator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A package for computing the addtition and multiplication of numbers",
   "main": "index.js",
   "scripts": {
