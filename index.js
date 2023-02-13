@@ -33,7 +33,7 @@ app.listen(3000, () => console.log(`server is up and listening on port 3000...`)
 
 // export the packages to be used ( as apis can't be called from npm  )
 
-export const addition = (numbers) => {
+const addition = (numbers) => {
     let sum = 0;
     for(let i = 0; i <numbers.length; i++) {
         sum +=numbers[i]
@@ -41,10 +41,12 @@ export const addition = (numbers) => {
     return sum;
 }
 
-export const multiplication = (numbers) => {
+const multiplication = (numbers) => {
     let product;
     for(let i = 0; i < numbers.length; i++) {
         product *= numbers[i];
     }
     return product
 }
+
+module.exports = {addition, multiplication}
