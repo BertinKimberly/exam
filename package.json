@@ -14,5 +14,17 @@
     "jest": "^27.4.7"
   },
   "author": "Bertin Iradukunda",
-  "license": "MIT"
+  "license": "MIT",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BertinKimberly/exam.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/BertinKimberly/exam/issues"
+  },
+  "homepage": "https://github.com/BertinKimberly/exam#readme"
 }
