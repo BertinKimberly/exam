@@ -32,9 +32,7 @@ app.get('/multiplication', (req, res) => {
   res.json({ result: product });
 });
 
-app.listen(3000, () => {
-  console.log('Server listening on port 5000');
-});
+app.listen(3000, () => console.log(`server is up and listening on port 3000...`));
 
 
 // iii) 

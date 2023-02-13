@@ -1,24 +1,18 @@
 {
-  "name": "@bertin_iradukunda/javascript-exam",
+  "name": "bertin-calculator",
   "version": "1.0.0",
-  "description": "mycalculator",
-  "main": "calculator.js",
+  "description": "A package for computing the addtition and multiplication of numbers",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/BertinKimberly/exam.git"
-  },
-  "author": "Bertin",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/BertinKimberly/exam/issues"
-  },
-  "homepage": "https://github.com/BertinKimberly/exam#readme",
   "dependencies": {
-    "calculator.js": "^1.0.1",
-    "express": "^4.18.2"
+    "express": "^4.17.1",
+    "lodash": "^4.17.21"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "jest": "^27.4.7"
+  },
+  "author": "Bertin Iradukunda",
+  "license": "MIT"
 }
